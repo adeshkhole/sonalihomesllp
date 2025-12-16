@@ -1,0 +1,3 @@
+@echo off
+echo Starting the Sonali Homes LLP website...
+start index.html

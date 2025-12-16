@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Projects - Sonali Homes LLP</title>
+    <meta name="description" content="Explore our premium real estate projects in Kalyan East. Quality homes with modern amenities and excellent connectivity.">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="sonali-homes-logo.png" type="image/png">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-content">
+            <img src="sonali-homes-logo.png" alt="Sonali Homes" class="preloader-logo">
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html">
+                <img src="sonali-homes-logo.png" alt="Sonali Homes Logo" class="logo">
+            </a>
+            
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <button id="darkModeToggle" class="dark-toggle">🌙</button>
+        </div>
+    </nav>
+
+    <!-- Premium Offer Popup -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <h2>🎉 Exclusive Festive Offer!</h2>
+            <p>Fill the form below to get special pricing and offers on your dream home.</p>
+            
+            <form id="inquiry-form">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="tel" name="mobile" placeholder="Mobile Number" required>
+                <input type="email" name="email" placeholder="Email (Optional)">
+                <textarea name="message" placeholder="Your Message (Optional)"></textarea>
+                <button type="submit">Submit & Get Offer</button>
+            </form>
+            
+            <p class="thanks-msg">Thank you! Our Sales Head will contact you shortly.</p>
+            
+            <div class="popup-footer">
+                <p>📞 Call us at <a href="tel:8108727000" style="color: var(--primary-gold);">8108727000</a></p>
+                <p>Follow us: 
+                    <a href="https://www.facebook.com/people/Mahadev-Heights/61581490681981/" target="_blank">Facebook</a> | 
+                    <a href="https://www.instagram.com/mahadev__heights/" target="_blank">Instagram</a>
+                </p>
+                <div class="rera-section">
+                    <h3>RERA Compliance</h3>
+                    <p>RERA No: P51700055444</p>
+                    <div class="rera-barcode">
+                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=P51700055444" alt="RERA QR Code">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Hero -->
+    <section class="hero" style="background-image: url('https://kimi-web-img.moonshot.cn/img/cloud.ctbuh.org/3603bf741990be3fe4d12aa84df18c285a2f9b78.jpg');">
+        <div class="hero-overlay">
+            <h1 class="hero-title" data-aos="fade-up">Our Projects</h1>
+            <p data-aos="fade-up" data-aos-delay="200">Discover our premium developments designed for modern living</p>
+            <div data-aos="fade-up" data-aos-delay="400">
+                <a href="#current-projects" class="cta-btn">View Current Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Current Projects -->
+    <section id="current-projects" class="projects-list" data-aos="fade-up">
+        <h2>Current Projects</h2>
+        <p style="color: var(--text-light); font-size: 1.2rem; margin-bottom: 3rem;">
+            Ongoing developments with modern amenities and prime locations
+        </p>
+        
+        <div class="project-cards">
+            <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                <img src="https://kimi-web-img.moonshot.cn/img/www.archpaper.com/67d175b0c7928bb3dc02f91508a25a0df8f8d21e.jpg" alt="Mahadev Heights" loading="lazy">
+                <h3>Mahadev Heights</h3>
+                <p style="color: var(--text-light); margin: 1rem 0;">
+                    Premium 1 & 2 BHK residences in the heart of Kalyan East with modern amenities and excellent connectivity.
+                </p>
+                <div style="margin: 1.5rem 0;">
+                    <div style="display: flex; justify-content: space-around; margin-bottom: 1rem;">
+                        <div>
+                            <strong style="color: var(--primary-gold);">1 BHK</strong><br>
+                            <span>₹30-32 Lakhs</span>
+                        </div>
+                        <div>
+                            <strong style="color: var(--primary-gold);">2 BHK</strong><br>
+                            <span>₹35-40 Lakhs</span>
+                        </div>
+                    </div>
+                    <div style="background: var(--primary-gold); color: var(--text-dark); padding: 0.5rem; border-radius: 25px; font-weight: 600;">
+                        Ready to Move
+                    </div>
+                </div>
+                <a href="mahadev-heights.html" class="view-details">View Details</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Upcoming Projects -->
+    <section class="projects-list" style="background: var(--bg-light);" data-aos="fade-up">
+        <h2>Upcoming Projects</h2>
+        <p style="color: var(--text-light); font-size: 1.2rem; margin-bottom: 3rem;">
+            Exciting new developments launching soon
+        </p>
+        
+        <div class="project-cards">
+            <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                <img src="https://kimi-web-img.moonshot.cn/img/media.wfaa.com/336d2bde1e42513c65525d0656e99d466886b338.jpg" alt="Sonali Towers" loading="lazy">
+                <h3>Sonali Towers</h3>
+                <p style="color: var(--text-light); margin: 1rem 0;">
+                    Luxury 2 & 3 BHK residences with world-class amenities and smart home features.
+                </p>
+                <div style="margin: 1.5rem 0;">
+                    <div style="display: flex; justify-content: space-around; margin-bottom: 1rem;">
+                        <div>
+                            <strong style="color: var(--primary-gold);">2 BHK</strong><br>
+                            <span>₹45-50 Lakhs</span>
+                        </div>
+                        <div>
+                            <strong style="color: var(--primary-gold);">3 BHK</strong><br>
+                            <span>₹60-65 Lakhs</span>
+                        </div>
+                    </div>
+                    <div style="background: #ff6b6b; color: white; padding: 0.5rem; border-radius: 25px; font-weight: 600;">
+                        Launching Q2 2025
+                    </div>
+                </div>
+                <a href="#popup" class="view-details enquire-now-btn">Get Updates</a>
+            </div>
+            
+            <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+                <img src="https://kimi-web-img.moonshot.cn/img/hips.hearstapps.com/69b0aa522708cf3247886f07a3cd8e39ce5b8ee9.jpg" alt="Premium Residences" loading="lazy">
+                <h3>Premium Residences</h3>
+                <p style="color: var(--text-light); margin: 1rem 0;">
+                    Exclusive 3 BHK luxury apartments with premium fittings and panoramic city views.
+                </p>
+                <div style="margin: 1.5rem 0;">
+                    <div style="text-align: center; margin-bottom: 1rem;">
+                        <div>
+                            <strong style="color: var(--primary-gold);">3 BHK Luxury</strong><br>
+                            <span>₹75-80 Lakhs</span>
+                        </div>
+                    </div>
+                    <div style="background: #4ecdc4; color: white; padding: 0.5rem; border-radius: 25px; font-weight: 600;">
+                        Pre-Launch Offers
+                    </div>
+                </div>
+                <a href="#popup" class="view-details enquire-now-btn">Enquire Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Features -->
+    <section class="why-section" data-aos="fade-up">
+        <h2>Why Our Projects Stand Out</h2>
+        <div class="why-grid">
+            <div class="why-card" data-aos="fade-up" data-aos-delay="100">
+                <h3><i class="fas fa-map-marker-alt"></i> Prime Locations</h3>
+                <p>All our projects are strategically located with excellent connectivity to schools, hospitals, malls, and transport hubs.</p>
+            </div>
+            <div class="why-card" data-aos="fade-up" data-aos-delay="200">
+                <h3><i class="fas fa-home"></i> Modern Amenities</h3>
+                <p>From swimming pools to fitness centers, we provide world-class amenities for a comfortable lifestyle.</p>
+            </div>
+            <div class="why-card" data-aos="fade-up" data-aos-delay="300">
+                <h3><i class="fas fa-certificate"></i> RERA Approved</h3>
+                <p>All projects are RERA registered with complete transparency in documentation and legal compliance.</p>
+            </div>
+            <div class="why-card" data-aos="fade-up" data-aos-delay="400">
+                <h3><i class="fas fa-handshake"></i> Easy Financing</h3>
+                <p>We assist with home loan approvals from leading banks and financial institutions for smooth processing.</p>
+            </div>
+            <div class="why-card" data-aos="fade-up" data-aos-delay="500">
+                <h3><i class="fas fa-tools"></i> Quality Assurance</h3>
+                <p>Stringent quality checks at every stage ensure that you get a home built to last generations.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Benefits -->
+    <section class="location-benefits" data-aos="fade-up">
+        <h2>Prime Location Benefits</h2>
+        <p style="color: var(--text-light); font-size: 1.2rem; margin-bottom: 2rem;">
+            All our projects enjoy excellent connectivity and access to essential services
+        </p>
+        
+        <ul class="location-list">
+            <li class="location-item" data-aos="fade-right" data-aos-delay="100">
+                <span class="location-icon">🛣️</span> Connectivity
+                <ul class="sub-list hidden">
+                    <li>Kalyan Rail Junction - 10 minutes</li>
+                    <li>Vitthalwadi Station - 10 minutes</li>
+                    <li>Mumbai Nashik Highway - 30 minutes</li>
+                    <li>Proposed Metro Station - 5 minutes</li>
+                </ul>
+            </li>
+            <li class="location-item" data-aos="fade-right" data-aos-delay="200">
+                <span class="location-icon">🎬</span> Entertainment & Shopping
+                <ul class="sub-list hidden">
+                    <li>Metro Mall - 6 minutes</li>
+                    <li>Inox Cinema - 5 minutes</li>
+                    <li>SM5 Multiflex - 5 minutes</li>
+                    <li>D-Mart - 8 minutes</li>
+                </ul>
+            </li>
+            <li class="location-item" data-aos="fade-right" data-aos-delay="300">
+                <span class="location-icon">🏥</span> Healthcare
+                <ul class="sub-list hidden">
+                    <li>Ayur Hospital - 1 minute</li>
+                    <li>Janki Global Hospital - 5 minutes</li>
+                    <li>Ameya Multi Speciality Hospital - 5 minutes</li>
+                    <li>Fortis Hospital - 15 minutes</li>
+                </ul>
+            </li>
+            <li class="location-item" data-aos="fade-right" data-aos-delay="400">
+                <span class="location-icon">🎓</span> Education
+                <ul class="sub-list hidden">
+                    <li>Angels High School - 1 minute</li>
+                    <li>Arya Gurukul School - 5 minutes</li>
+                    <li>Model College - 5 minutes</li>
+                    <li>Birla College - 10 minutes</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Call to Action -->
+    <section style="background: linear-gradient(135deg, var(--primary-gold), var(--primary-gold-light)); color: var(--text-dark); padding: 5rem 1rem; text-align: center;">
+        <h2 style="color: var(--text-dark); font-size: 2.5rem; margin-bottom: 1rem;" data-aos="fade-up">Ready to Invest?</h2>
+        <p style="font-size: 1.3rem; margin-bottom: 2rem;" data-aos="fade-up" data-aos-delay="200">
+            Get exclusive offers and early bird discounts on our upcoming projects
+        </p>
+        <div data-aos="fade-up" data-aos-delay="400">
+            <a href="mahadev-heights.html" class="cta-btn" style="background: var(--text-white); color: var(--text-dark);">View Mahadev Heights</a>
+            <a href="#popup" class="cta-btn secondary enquire-now-btn" style="background: transparent; color: var(--text-dark); border-color: var(--text-dark);">Get Project Updates</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Sonali Homes LLP. All Rights Reserved. | ☎ <a href="tel:8108727000" style="color: var(--primary-gold);">8108727000</a></p>
+        <div class="footer-links">
+            <a href="index.html">Home</a> |
+            <a href="projects.html">Projects</a> |
+            <a href="about.html">About Us</a> |
+            <a href="contact.html">Contact</a> |
+            <a href="privacy-policy.html">Privacy Policy</a>
+        </div>
+        <div class="footer-credits">
+            <p>Website designed by Sonali Homes LLP | RERA No: P51700055444</p>
+        </div>
+    </footer>
+
+    <!-- Sticky Contact -->
+    <div class="sticky-contact">
+        <a href="#popup" class="enquire-now-btn" title="Enquire Now">
+            <span>📝</span>
+        </a>
+        <a href="tel:+918108727000" class="call-icon" title="Call Now">
+            <span>📞</span>
+        </a>
+        <a href="https://wa.me/+918108727000" class="whatsapp-icon" target="_blank" title="WhatsApp">
+            <span>💬</span>
+        </a>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="main.js"></script>
+    
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 1000,
+            once: true,
+            offset: 100
+        });
+
+        // Add smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Lazy loading for images
+        document.addEventListener("DOMContentLoaded", () => {
+            const images = document.querySelectorAll("img[loading='lazy']");
+            const imageObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const img = entry.target;
+                        img.classList.add("loaded");
+                        imageObserver.unobserve(img);
+                    }
+                });
+            });
+
+            images.forEach(img => imageObserver.observe(img));
+        });
+    </script>
+</body>
+</html>
